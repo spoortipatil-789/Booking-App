@@ -1,0 +1,43 @@
+.cities{
+    margin-bottom: 100px;
+}
+
+.citytitle{
+    letter-spacing: 1.3px;
+    margin-bottom: 5px;
+}
+.cityDesc{
+    letter-spacing: 1.3px;
+    margin-bottom: 10px;
+}
+.cityImages{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cityImage .cityImg {
+    width: 280px;
+    height:160px;
+   margin-bottom: 10px;
+}
+.cityImage .cityImg img {
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+.cityImgTitle{
+   letter-spacing: 1.3px;
+   text-transform: uppercase;
+   color: #ff7f50;
+   text-decoration: none;
+}
+.cityImgProperties{
+    font-size: 14px;
+    letter-spacing: 1.3px;
+}
+.cityImage:hover .cityImg img{
+    transform: scale(1.02);
+}
